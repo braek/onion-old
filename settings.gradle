@@ -1,4 +1,4 @@
-rootProject.name = 'onion-template'
+rootProject.name = 'onion'
 
 include(':vocabulary')
 include(':test-doubles')
