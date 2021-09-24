@@ -1,10 +1,10 @@
 dependencies {
-    testImplementation project(':test-doubles')
-    testImplementation project(':vocabulary')
-    testImplementation project(':use-cases')
-    testImplementation project(':queries')
     testImplementation project(':api')
     testImplementation project(':domain')
+    testImplementation project(':queries')
+    testImplementation project(':test-doubles')
+    testImplementation project(':use-cases')
+    testImplementation project(':vocabulary')
 }
 
 description = 'acceptance-tests'
