@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':vocabulary')
+    implementation project(':domain')
+    implementation project(':api')
+
+    testImplementation project(':test-doubles')
+}
+
+description = 'use-cases'

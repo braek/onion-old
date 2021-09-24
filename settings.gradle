@@ -1,0 +1,19 @@
+rootProject.name = 'onion-template'
+
+include(':vocabulary')
+include(':test-doubles')
+include(':api')
+include(':domain')
+include(':use-cases')
+include(':queries')
+include(':acceptance-tests')
+
+
+
+project(':vocabulary').projectDir = file('code/vocabulary')
+project(':test-doubles').projectDir = file('code/test-doubles')
+project(':api').projectDir = file('code/application/api')
+project(':domain').projectDir = file('code/application/domain')
+project(':use-cases').projectDir = file('code/application/use-cases')
+project(':queries').projectDir = file('code/application/queries')
+project(':acceptance-tests').projectDir = file('code/infra/frontend-adapters/acceptance-tests')

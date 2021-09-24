@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':vocabulary')
+    implementation project(':api')
+    testImplementation project(':test-doubles')
+}
+
+description = 'queries'
