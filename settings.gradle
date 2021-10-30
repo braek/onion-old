@@ -1,5 +1,7 @@
 rootProject.name = 'onion'
 
+
+include(':main')
 include(':vocabulary')
 include(':test-doubles')
 include(':api')
@@ -9,11 +11,11 @@ include(':queries')
 include(':acceptance-tests')
 
 
-
+project(':main').projectDir = file('code/main')
 project(':vocabulary').projectDir = file('code/vocabulary')
 project(':test-doubles').projectDir = file('code/test-doubles')
 project(':api').projectDir = file('code/application/api')
 project(':domain').projectDir = file('code/application/domain')
 project(':use-cases').projectDir = file('code/application/use-cases')
 project(':queries').projectDir = file('code/application/queries')
-project(':acceptance-tests').projectDir = file('code/infra/frontend-adapters/acceptance-tests')
+project(':acceptance-tests').projectDir = file('code/frontend-adapters/acceptance-tests')
