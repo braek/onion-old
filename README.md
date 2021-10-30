@@ -1,3 +1,3 @@
 # Onion
 
-Base project for getting started with **hexagonal architecture.**
+Template project for getting started with **hexagonal architecture** using Java and Gradle.
